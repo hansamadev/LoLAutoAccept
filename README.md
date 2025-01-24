@@ -4,7 +4,7 @@
 
 ## Özellikler ✨
 - **Otomatik Maç Kabulü**: Oyun kabul butonunu otomatik tıklar.
-- **Hızlı Başlangıç**: Python betiğini çalıştırarak hemen başlayabilirsiniz! 🚀
+- **Hızlı Başlangıç**: Python kodunu çalıştırarak hemen başlayabilirsiniz! 🚀
 
 ## Kullanım 📦
 
