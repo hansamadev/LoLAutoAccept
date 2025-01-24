@@ -1,8 +1,8 @@
 import pyautogui
-from python_imagesearch.imagesearch import imagesearch  # Görsel arama fonksiyonunu içe aktarıyoruz
+from python_imagesearch.imagesearch import imagesearch  
 import time
 
-pyautogui.FAILSAFE = False  # PyAutoGUI için güvenlik önlemi devre dışı bırakılıyor
+pyautogui.FAILSAFE = False  
 TIMELAPSE = 1  # Bekleme süresi (saniye cinsinden)
 
 acceptButtonImg = 'C:\\Users\\han\\Desktop\\bot\\sample.png'
@@ -18,7 +18,7 @@ def maçKabulEt():
         
         if not pos[0] == -1:  # Görsel bulunduysa
             pyautogui.click(pos[0], pos[1])  # Tıklama işlemi yapılıyor
-            print("Maç kabul edildi!")  # Ekrana mesaj yazdırıyoruz
+            print("Maç kabul edildi!") 
             break  
         
         time.sleep(TIMELAPSE)  
